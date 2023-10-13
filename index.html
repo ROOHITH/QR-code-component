@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .main {
+        content: "";
+        width: 100%;
+        height: auto;
+        background-color: rgb(144, 189, 174);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      .qrCodeBox {
+        content: "";
+        min-width: 100px;
+        min-height: 100px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .box1 img {
+        max-width: 100%; /* Ensure the image scales with its parent's width */
+        height: auto; /* Let the height adjust accordingly */
+        border-radius: 10px;
+      }
+      .text-align{
+        text-align: center;
+      }
+      .bold{
+        font-size: 27px;
+    font-weight: bold;
+      }
+      .rmBottomMargin{
+        margin-bottom: 0px;
+      }
+      .rmTopMargin{
+        margin-top: 0px;
+      }
+      .width{
+        padding-left: 18px;
+}
+.width {
+    width: 262px;  
+    color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="qrCodeBox">
+          <div class="box1">
+            <img src="/images/image-qr-code.png" alt="" />
+          </div>
+          <div class="box2">
+            <p class="text-align bold rmBottomMargin">Impore your frint-end skills by building projects</p>
+           
+            <p  class="text-align width">Scan the QR Code to visit Frontend
+Mentor and take your coding skills to
+            the next level</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
